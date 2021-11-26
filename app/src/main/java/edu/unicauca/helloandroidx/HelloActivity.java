@@ -10,6 +10,8 @@ import java.util.Date;
 
 public class HelloActivity extends AppCompatActivity implements View.OnClickListener {
     Button btn;
+    String name;
+    double velocidad;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +25,14 @@ public class HelloActivity extends AppCompatActivity implements View.OnClickList
 
     public void updateTime(){
         btn.setText(new Date().toString());
+    }
+
+    public void updateName(String name){
+        this.name = name;
+    }
+
+    public void cambiarVelocidad(double velocidad){
+        this.velocidad = velocidad;
     }
 
     @Override
