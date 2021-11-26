@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HelloAndroidX</string>
+    <string name="saludo">Hola aplicaciones móviles</string>
+</resources>
